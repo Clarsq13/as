@@ -1,46 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon</title>
+  </head>
 
-    <!-- Normalize CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Font Roboto -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-
-    <!-- Nosso CSS -->
-    <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/pokedex.css">
-</head>
-
-<body>
-    <section class="content">
-        <h1>Pokedex</h1>
-
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
-
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
+  <body>
+    <h1 class="titulo-principal">Pokedex</h1>
+    <div class="pokeContainer" id="pokeContainer"></div>
+    <div class="pokemon">
+      <div class="info">
+        <span class="number">#1</span>
+        <div class="imgContainer">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
         </div>
-    </section>
+        <h2 class="name"> Bulbasaur</h2>
+        <small class="type">Tipo: </span class="type">Plant</small></br>
+        <div class="atype">Tipo: </span class="atype"> Poison</div></br>
+      </div>
+    </div>
+    <div class="pokeContainer" id="pokeContainer"></div>
+    <div class="pokemon">
+      <div class="imgContainer">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Blastoise">
+      </div>
+      <div class="info">
+        <span class="number">#2</span>
+        <h2 class="name">Blastoise</h2>
+        <small class="type">Tipo: </span class="type">Water</small></br>
+      </div>
+    </div>
 
-    <!-- Nosso JS -->
-    <script src="/assets/js/pokemon-model.js"></script>
-    <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/main.js"></script>
-</body>
+    <div class="pokeContainer" id="pokeContainer"></div>
+
+    <div class="pokemon">
+      <div class="imgContainer">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+      </div>
+      <div class="info"></div>
+      <span class="number">#3</span>
+      <h2 class="name"> Charmander</h2>
+      <small class="type">Tipo:</span class="atype">fire</span><br></small>
+    </div>
+    </div>
+    <div class="pokeContainer" id="pokeContainer"></div>
+
+
+    <div class="pokemon">
+
+      <div class="imgContainer">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png" alt="Golbat">
+      </div>
+      <div class="info">
+        <span class="number">#4</span>
+        <h2 class="name">Golbat</h2>
+        <small class="type">Tipo:</span>Poison</small><br>
+        <small class="atype">Tipo: </span class="atype">Flying</small></br>
+      </div>
+    </div>
+    </div>
+
+    <div class="pokeContainer" id="pokeContainer"></div>
+    <div class="pokemon">
+      <div class="imgContainer">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png" alt="Nidoking">
+      </div>
+      <div class="info">
+        <span class="number">#5</span>
+        <h2 class="name">Nidoing</h2>
+        <small class="type">Tipo:</span>Poison</small><br>
+        <small class="atype">Tipo: </span class="atype">Flying</small></br>
+      </div>
+    </div>
+    </div>
+
+    <button onclick src="pokemon-model.js"> </button>
+
+    </button>
+    <script src="pokemon-model.js"></script>
+    <script src="poke-api.js"></script>
+    <script>main.js > "main.js"</script>
+
+    </script>
+  </body>
 
 </html>
